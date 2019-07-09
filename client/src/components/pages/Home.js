@@ -68,7 +68,7 @@ function Home() {
               </div>
               <div class="col-lg-6">
                 <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
-                  <link href="../../css/style.css" rel="stylesheet" />
+                  <link href="#" rel="stylesheet" />
                     <img src={require("../../img/dummy/img-1.png")} class="img-responsive" alt="" />
                   
           </div>

@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import Saved from "./components/pages/Saved";
-//import GoogleLogin from "./components/pages/GoogleLogin";
-//import FacebookLogin from 'react-facebook-login';
+
 
 //import logo from "./logo.svg";
 import "./App.css";
