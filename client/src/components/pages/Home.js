@@ -33,9 +33,9 @@ function Home() {
     <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#intro">Home</a></li>
-                <li><a href="#register">Register/Sign In</a></li>
                 <li><a href="#service">Service</a></li>
                 <li><a href="#testimonial">Testimonials</a></li>
+                <li><a href="#register">Register/Sign In</a></li>
               </ul>
             </div>
           </div>
