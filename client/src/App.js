@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from "./components/pages/Home";
-import Saved from "./components/pages/Saved";
-//import PrivateRoute from "./components/PrivateRoute";
+import Home from "./components/Home/Home";
+import UserPage from "./components/UserPage/UserPage";
+import Navbar from "./components/Navbar.js";
 
 //import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Profile from "./components/Profile";
@@ -23,18 +23,13 @@ import"./color/default.css";
 
 function App() {
   return (
+    <div>
+      <Navbar />
     <Router>
-      <div>
-   
-        <Auth />
         <Route exact path="/" component={Home} />
-        <Route exact path="/saved" component={Saved} />
-        <Route path="/profile" component={Profile} />
-       
-        
-        
-      </div>
+        <Route exact path="/loggedin" component={UserPage} />
     </Router>
+    </div>
   );
 }
 
