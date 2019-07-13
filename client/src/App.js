@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from "./components/pages/Home";
-import Saved from "./components/pages/Saved";
+import Home from "./components/Home/Home";
+import UserPage from "./components/UserPage/UserPage";
+import Navbar from "./components/Navbar.js";
 
 
 //import logo from "./logo.svg";
@@ -20,15 +21,13 @@ import"./color/default.css";
 
 function App() {
   return (
+    <div>
+      <Navbar />
     <Router>
-      <div>
-      
         <Route exact path="/" component={Home} />
-        <Route exact path="/saved" component={Saved} />
-  
-
-      </div>
+        <Route exact path="/loggedin" component={UserPage} />
     </Router>
+    </div>
   );
 }
 
