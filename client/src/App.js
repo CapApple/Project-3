@@ -4,7 +4,9 @@ import Home from "./components/Home/Home";
 import UserPage from "./components/UserPage/UserPage";
 import Navbar from "./components/Navbar.js";
 
-
+//import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Profile from "./components/Profile";
+import Auth from "./components/Auth";
 //import logo from "./logo.svg";
 import "./App.css";
 import "./css/style.css";
