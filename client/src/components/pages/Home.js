@@ -1,5 +1,5 @@
 import React from "react";
-
+import Auth from "../Auth";
 function Home() {
   return (
     <div>
@@ -35,7 +35,7 @@ function Home() {
                 <li class="active"><a href="#intro">Home</a></li>
                 <li><a href="#service">Service</a></li>
                 <li><a href="#testimonial">Testimonials</a></li>
-                <li><a href="auth">Register/Sign In</a></li>
+               <li> <Auth /> </li>
               </ul>
             </div>
           </div>
