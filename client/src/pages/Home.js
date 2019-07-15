@@ -1,5 +1,5 @@
 import React from "react";
-import Auth from "../Auth";
+import Auth from "../components/Auth";
 function Home() {
   return (
     <div>
@@ -25,7 +25,7 @@ function Home() {
                 <i class="fa fa-bars"></i>
               </button>
               <a class="navbar-brand" href="index.html">
-                <img src={require("../../img/rxr.png")} alt="" width="150" height="40" />
+                <img src={require("../img/rxr.png")} alt="" width="150" height="40" />
               </a>
             </div>
 
@@ -69,7 +69,7 @@ function Home() {
               <div class="col-lg-6">
                 <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
                   <link href="#" rel="stylesheet" />
-                    <img src={require("../../img/dummy/img-1.png")} class="img-responsive" alt="" />
+                    <img src={require("../img/dummy/img-1.png")} class="img-responsive" alt="" />
                   
           </div>
                 </div>
@@ -245,7 +245,7 @@ function Home() {
                         <div class="row">
                           <div class="col-sm-6 col-md-6">
                             <div class="wow fadeInUp" data-wow-delay="0.2s">
-                              <img src={require("../../img//dummy/img-1.jpg")} class="img-responsive" alt="" />
+                              <img src={require("../img//dummy/img-1.jpg")} class="img-responsive" alt="" />
                             </div>
                           </div>
                           <div class="col-sm-3 col-md-3">
@@ -353,7 +353,7 @@ function Home() {
                                       <ins class="ab zmin sprite sprite-i-triangle block"></ins>
                                     </div>
                                     <div class="person-text rel text-light">
-                                      <img src={require("../../img/testimonials/1.jpg")} alt="" class="person img-circle" />
+                                      <img src={require("../img/testimonials/1.jpg")} alt="" class="person img-circle" />
                                       <a title="" href="#">Hailey</a>
                                       <span>Dallas, Texas</span>
                                     </div>
@@ -368,7 +368,7 @@ function Home() {
                                       <ins class="ab zmin sprite sprite-i-triangle block"></ins>
                                     </div>
                                     <div class="person-text rel text-light">
-                                      <img src={require("../../img/testimonials/2.jpg")} alt="" class="person img-circle" />
+                                      <img src={require("../img/testimonials/2.jpg")} alt="" class="person img-circle" />
                                       <a title="" href="#">Matt</a>
                                       <span>Fort Worth, Texas</span>
                                     </div>
@@ -383,7 +383,7 @@ function Home() {
                                       <ins class="ab zmin sprite sprite-i-triangle block"></ins>
                                     </div>
                                     <div class="person-text rel text-light">
-                                      <img src={require("../../img/testimonials/3.jpg")} alt="" class="person img-circle" />
+                                      <img src={require("../img/testimonials/3.jpg")} alt="" class="person img-circle" />
                                       <a title="" href="#">Amber</a>
                                       <span>San Antonio, Texas</span>
                                     </div>
@@ -400,7 +400,7 @@ function Home() {
                                       <ins class="ab zmin sprite sprite-i-triangle block"></ins>
                                     </div>
                                     <div class="person-text rel text-light">
-                                      <img src={require("../../img/testimonials/4.jpg")} alt="" class="person img-circle" />
+                                      <img src={require("../img/testimonials/4.jpg")} alt="" class="person img-circle" />
                                       <a title="" href="#">Mike</a>
                                       <span>Austin, Texas</span>
                                     </div>
@@ -415,7 +415,7 @@ function Home() {
                                       <ins class="ab zmin sprite sprite-i-triangle block"></ins>
                                     </div>
                                     <div class="person-text rel text-light">
-                                      <img src={require("../../img/testimonials/5.jpg")} alt="" class="person img-circle" />
+                                      <img src={require("../img/testimonials/5.jpg")} alt="" class="person img-circle" />
                                       <a title="" href="#">Emily</a>
                                       <span>Houston, Texas</span>
                                     </div>
@@ -430,7 +430,7 @@ function Home() {
                                       <ins class="ab zmin sprite sprite-i-triangle block"></ins>
                                     </div>
                                     <div class="person-text rel text-light">
-                                      <img src={require("../../img/testimonials/6.jpg")} alt="" class="person img-circle" />
+                                      <img src={require("../img/testimonials/6.jpg")} alt="" class="person img-circle" />
                                       <a title="" href="#">Sara</a>
                                       <span>Norman, Oklahoma</span>
                                     </div>
